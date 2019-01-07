@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.chocolate-box-section {
+    width: 70%;
+}
+
+.chocolate-box {
+    width: 404px;
+    border: 2px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chocolate-on-box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+/* COLORS */
+.chocolate-on-box.Black {
+    background: #2a1b0e;
+}
+
+.chocolate-on-box.Milk {
+    background: #825a39;
+}
+
+.chocolate-on-box.Pistachio {
+    background: #87b665;
+}
+
+.chocolate-on-box.Raspberry {
+    background: #e56c73;
+}
